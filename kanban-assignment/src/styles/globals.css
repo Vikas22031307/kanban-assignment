@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#root { height: 100%; }
+body { @apply bg-neutral-50 font-sans p-6; }
+
+:focus-visible {
+  outline: 2px solid rgba(14,165,233,0.8);
+  outline-offset: 2px;
+}
